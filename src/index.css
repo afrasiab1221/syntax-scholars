@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind base;
+ @tailwind components;
+  @tailwind utilities;
+
+  @theme {
+      --color-primary: #0D1B2A; /* Example custom primary color */
+      --color-accent: #C9A66B;  /* Example custom accent color */
+      --color-light: #F5F2E7
+      /* ... more shades if needed */
+    }
