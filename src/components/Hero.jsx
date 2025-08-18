@@ -1,5 +1,6 @@
 import mepy from "../assets/mepy.png";
 import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <section className="bg-primary sm:h-full  text-light flex flex-col md:flex-row items-center justify-center my-10 mb-20 gap-8 px-6 h-auto ">
