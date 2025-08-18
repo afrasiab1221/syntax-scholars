@@ -2,7 +2,7 @@ import mepy from "../assets/mepy.png";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
-    <section className=" bg-primary text-light min-h-[80vh] flex flex-col md:flex-row items-center justify-center gap-8 px-6">
+    <section className="bg-primary text-light flex flex-col md:flex-row items-center justify-center gap-8 px-6 min-h-[50vh] md:min-h-[80vh]">
       {/* Text Content */}
       <div className="max-w-lg text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">

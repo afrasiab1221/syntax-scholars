@@ -5,13 +5,14 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-primary text-light h-20 flex items-center justify-between px-6">
+    <nav className="bg-primary text-light flex items-center justify-between px-6">
       <div className="w-auto">
         <Link to="/">
+          {/* Use a smaller height for mobile, then scale up for larger screens */}
           <img
             src={logo}
             alt="Syntax Scholars Logo"
-            className="h-16 md:h-24 lg:h-32 w-auto object-contain"
+            className="h-10 md:h-16 lg:h-24 w-auto object-contain"
           />
         </Link>
       </div>
