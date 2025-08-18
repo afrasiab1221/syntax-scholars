@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div className="bg-primary min-h-screen flex flex-col">
       {/* Hero Section */}
-      <section className="py-12">
+      <section className="">
         <Hero />
       </section>
 
       {/* Cards Section */}
-      <section className="w-full px-4 sm:px-8 lg:px-16 py-12 flex justify-center">
+      <section className="w-full px-4 sm:px-8 lg:px-16  flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center w-full max-w-7xl">
           <Card
             title="Notes"
