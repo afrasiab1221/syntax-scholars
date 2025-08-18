@@ -1,4 +1,5 @@
-    import mepy from "../assets/mepy.png";
+import mepy from "../assets/mepy.png";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className=" bg-primary text-light min-h-[80vh] flex flex-col md:flex-row items-center justify-center gap-8 px-6">
@@ -11,7 +12,12 @@ const Hero = () => {
           Join our courses and boost your coding skills with expert guidance.
         </p>
         <button className=" cursor-pointer bg-accent text-primary px-6 py-3 rounded hover:opacity-90 transition">
-          Get Started
+          <Link
+            to="/Courses"
+            className="cursor-pointer bg-accent text-primary px-6 py-3 rounded hover:opacity-90 transition inline-block"
+          >
+            Get Started
+          </Link>
         </button>
       </div>
 

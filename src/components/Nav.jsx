@@ -6,11 +6,14 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="bg-primary text-light h-20 flex items-center justify-between px-6">
-      <div className="mt-5  w-auto">
+      <div className="w-auto">
         <Link to="/">
-        <img src={logo} alt="" className="h-40 w-auto object-contain" />
+          <img
+            src={logo}
+            alt="Syntax Scholars Logo"
+            className="h-16 md:h-24 lg:h-32 w-auto object-contain"
+          />
         </Link>
-        
       </div>
 
       {/* Navigation Links */}
